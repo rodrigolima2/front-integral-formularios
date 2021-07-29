@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="cadastro">
+        <h1>Cadastro</h1>
+        <form>
+            <div class="input">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" required>
+            </div>
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="input">
+                <label for="celular">Celular</label>
+                <input type="number" id="celular" required>
+            </div>
+            <div class="input">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" required>
+            </div>
+            <div class="input">
+                <label for="cfm-senha">Confirmar senha</label>
+                <input type="password" id="cfm-senha" required>
+            </div>
+            <div class="input">
+                <label for="estado">Estado</label>
+                <select id="estado" required>
+                    <option value="acre">Acre</option>
+                    <option value="alagoas">Alagoas</option>
+                    <option value="amapa">Amapá</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="bahia">Bahia</option>
+                    <option value="ceara">Ceará</option>
+                    <option value="distrito-federal">Distrito Federal</option>
+                    <option value="espirito-santo">Espírito Santo</option>
+                    <option value="goias">Goiás</option>
+                    <option value="maranhao">Maranhão</option>
+                    <option value="mato-grosso">Mato Grosso</option>
+                    <option value="mato-grosso-do-sul">Mato Grosso do Sul</option>
+                    <option value="minas-gerais">Minas Gerais</option>
+                    <option value="para">Pará</option>
+                    <option value="paraiba">Paraíba</option>
+                    <option value="parana">Paraná</option>
+                    <option value="pernambuco">Pernambuco</option>
+                    <option value="piaui">Piauí</option>
+                    <option value="rio-de-janeiro">Rio de Janeiro</option>
+                    <option value="rio-grande-do-norte">Rio Grande do Norte</option>
+                    <option value="rio-grande-do-sul">Rio Grande do Sul</option>
+                    <option value="rondonia">Rondônia</option>
+                    <option value="roraima">Roraima</option>
+                    <option value="santa-catarina">Santa Catarina</option>
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="sergipe">Sergipe</option>
+                    <option value="tocantins">Tocantins</option>
+                </select>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
